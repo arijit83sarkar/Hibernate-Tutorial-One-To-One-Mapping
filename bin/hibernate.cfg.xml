@@ -19,6 +19,8 @@
         <!-- Select our SQL dialect -->
         <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
 
+        <!-- <property name="hbm2ddl.auto">update</property> -->
+
         <!-- Echo the SQL to stdout -->
         <property name="show_sql">true</property>
 
